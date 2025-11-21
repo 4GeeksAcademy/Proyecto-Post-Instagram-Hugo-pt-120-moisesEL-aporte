@@ -11,48 +11,93 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
 </head>
+
 <body>
-<main>  
-<div class="navbar">
-    <div id="logoContainer" href="#">
-        <h1>Instagram</h1>
-    </div>
-    <div id="loginContainer">
-        <div id="signIn" href="#">
-            Log in
+    <div class="navbar">
+        <div id="logoContainer" href="#">
+            <img src="/assets/instagram-logo.jpg" class="logo">
         </div>
-            <div id="signUp" href="#">
+        <input type="text" class="search" placeholder="Search">
+
+        <div id="loginContainer">
+            <button id="signIn" href="#">
+                Log in
+            </button>
+            <button id="signUp" href="#">
                 Sign up
-            </div>
-        </div>
-</div>        
-    <div class="post">
-        <div class="post-header"><!--barra superior-->
-            <div class="post-user"><!--div contenedor de usuario-->
-            <i class="fa-brands fa-html5"></i> <!--i es contenedor de iconos de HTML y nombre de usuario-->
-            <span>HTML5<br><small>@Galexhu</small></br></span>
-            <!--<span> etiqueta para agrupar texto <br> salto de linea <small> texto mas pequeño tipo <subtitulo-->
-            </div>
-            <i class="fa-solid fa-ellipsis-vertical"></i> <!--clase para los 3 puntos verticales-->
-            </div>
-        <div class="post-imagen"><!--imagen del post-->
-            <img src="https://picsum.photos/600/400" alt="Imagen random">
-        </div>
-        <div class="post-icons"><!--iconos de interacciones del post-->
-            <div class="post-icons-left"><!--iconos de la izquierda-->
-                <i class="fa-regular fa-heart"></i>
-                <i class="fa-regular fa-comment"></i>
-                <i class="fa-regular fa-paper-plane"></i>
-            </div>
-            <div class="post-icons-right"><!--iconos de la derecha-->
-                <i class="fa-regular fa-bookmark"></i>
-            </div>
-        </div>
-        <div class="post-body">
-            <p><p><strong>Liked by</strong> <strong>4GeeksAcademy</strong>, html5, Web and 100,000 others</p></p>
-            <p>Las imagenes son RANDOM asi que no podemos comentar cuales son XD</p>
+            </button>
         </div>
     </div>
-</main>  
+    <main>
+        <div class="post">
+            <div class="post-header"><!--barra superior-->
+                <div class="post-user"><!--div contenedor de usuario-->
+                    <i class="fa-brands fa-html5"></i> <!--i es contenedor de iconos de HTML y nombre de usuario-->
+                    <span>HTML5<br><small>@Galexhu</small></br></span>
+                    <!--<span> etiqueta para agrupar texto <br> salto de linea <small> texto mas pequeño tipo <subtitulo-->
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical"></i> <!--clase para los 3 puntos verticales-->
+            </div>
+            <div class="post-imagen"><!--imagen del post-->
+                <img src="https://picsum.photos/600/400" alt="Imagen random">
+            </div>
+            <div class="post-icons"><!--iconos de interacciones del post-->
+                <div class="post-icons-left"><!--iconos de la izquierda-->
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+                <div class="post-icons-right"><!--iconos de la derecha-->
+                    <i class="fa-regular fa-bookmark"></i>
+                </div>
+            </div>
+            <div class="post-body">
+                <p class="likes">
+                    Liked by <strong>4GeeksAcademy</strong>, html5, Web and 100,000 others
+                </p>
+                <p class="description">
+                    <strong class="username">Galexhu</strong>
+                    <span class="text">imagenes son RANDOM asi que no podemos comentar cuales son XD </span>
+                </p>
+                <p class="date">2 Hours ago</p>
+            </div>
+        </div>
+        <div class="post">
+            <div class="post-header"><!--barra superior-->
+                <div class="post-user"><!--div contenedor de usuario-->
+                    <i class="fa-brands fa-html5"></i> <!--i es contenedor de iconos de HTML y nombre de usuario-->
+                    <span>HTML5<br><small>@Galexhu</small></br></span>
+                    <!--<span> etiqueta para agrupar texto <br> salto de linea <small> texto mas pequeño tipo <subtitulo-->
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical"></i> <!--clase para los 3 puntos verticales-->
+            </div>
+            <div class="post-imagen"><!--imagen del post-->
+                <img src="https://picsum.photos/601/400" alt="Imagen random">
+            </div>
+            <div class="post-icons"><!--iconos de interacciones del post-->
+                <div class="post-icons-left"><!--iconos de la izquierda-->
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+                <div class="post-icons-right"><!--iconos de la derecha-->
+                    <i class="fa-regular fa-bookmark"></i>
+                </div>
+            </div>
+            <div class="post-body">
+                <p class="likes">
+                    Liked by <strong>4GeeksAcademy</strong>, html5, Web and 100,000 others
+                </p>
+                <p class="description">
+                    <strong class="username">Galexhu</strong>
+                    <span class="text">imagenes son RANDOM asi que no podemos comentar cuales son XD </span>
+                </p>
+                <p class="date">2 Hours ago</p>
+            </div>
+        </div>
+
+
+    </main>
 </body>
+
 </html>
